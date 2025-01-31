@@ -1,0 +1,8 @@
+# Default ignored files
+/../../checker /.idea/shelf/
+/../../checker /.idea/workspace.xml
+# Editor-based HTTP Client requests
+/../../checker /.idea/httpRequests/
+# Datasource local storage ignored files
+/../../checker /.idea/dataSources/
+/../../checker /.idea/dataSources.local.xml

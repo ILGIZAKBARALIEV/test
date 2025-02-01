@@ -70,6 +70,5 @@ async def process_homework(message: types.Message, state: FSMContext):
         await state.clear()
         await message.answer("✅ Домашнее задание отправлено и сохранено в базе данных!")
     except Exception as e:
-        # В случае ошибки при сохранении
         await message.answer("❌ Произошла ошибка при сохранении задания. Попробуйте позже.")
         logging.error(f"Ошибка при сохранении домашнего задания: {e}")

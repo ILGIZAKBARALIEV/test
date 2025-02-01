@@ -17,7 +17,7 @@ dp = Dispatcher(storage=MemoryStorage())
 database = Database("db.sqlite3")
 
 try:
-    database.create_tables()
+    Database.create_tables()
 except Exception as e:
     logging.error(f"❌ Ошибка при создании таблиц: {e}")
 
